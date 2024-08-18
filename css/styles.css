@@ -1,0 +1,169 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #F2EFE5;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #B4B4B8;
+}
+
+a:hover {
+    color: #E3E1D9;
+}
+
+/* Navbar */
+.navbar {
+    margin-bottom: 0;
+    background-color: #C7C8CC;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #F2EFE5;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    color: #F2EFE5;
+}
+
+.nav-link:hover {
+    color: #E3E1D9;
+}
+
+.navbar-nav .dropdown-menu {
+    background-color: #B4B4B8;
+}
+
+.dropdown-item {
+    color: #F2EFE5;
+}
+
+.dropdown-item:hover {
+    background-color: #C7C8CC;
+}
+
+/* Hero Section */
+.hero {
+    background: #B4B4B8;
+    color: #F2EFE5;
+    padding: 3rem 0;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.hero .btn {
+    background-color: #E3E1D9;
+    border: none;
+}
+
+.hero .btn:hover {
+    background-color: #C7C8CC;
+}
+
+/* Sections */
+section {
+    padding: 3rem 0;
+}
+
+.bg-light {
+    background-color: #F2EFE5;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+}
+
+/* Form Styles */
+.form-group label {
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.btn-primary {
+    background-color: #B4B4B8;
+    border-color: #B4B4B8;
+}
+
+.btn-primary:hover {
+    background-color: #C7C8CC;
+    border-color: #C7C8CC;
+}
+
+/* Footer */
+footer {
+    background-color: #B4B4B8;
+    color: #F2EFE5;
+}
+
+footer a {
+    color: #F2EFE5;
+}
+
+footer a:hover {
+    color: #E3E1D9;
+}
+
+/* Button Styles for Certificates */
+.btn-view-certificate {
+    background-color: #F2EFE5; /* Primary color */
+    color: #B4B4B8; /* Text color */
+    border: none;
+    border-radius: 30px; /* Rounded corners */
+    padding: 8px 16px; /* Padding for button */
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    transition: background-color 0.3s, transform 0.3s;
+    display: inline-block;
+    margin-left: 10px; /* Space between text and button */
+}
+
+.btn-view-certificate:hover {
+    background-color: #C7C8CC; /* Slightly lighter color on hover */
+    transform: translateY(-2px); /* Lift effect on hover */
+}
+
+.btn-view-certificate:active {
+    background-color: #B4B4B8; /* Keep primary color on click */
+    transform: translateY(0); /* Remove lift effect on click */
+}
+
+.btn-view-certificate:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(115, 103, 240, 0.5); /* Focus ring */
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+}
